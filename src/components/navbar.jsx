@@ -13,7 +13,7 @@ const [nav, setNav] = useState(false);
 const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#566e3d] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#566e3d] text-slate-200'>
         <div>
             <img src="" alt='' ></img>
         </div>
