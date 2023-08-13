@@ -6,8 +6,8 @@ import Home from "./components/home";
 function App() {
   return (
     <div className="font-nanummyeongjo">
-       <NavBar />
-       <Home />
+      
+       <NavBar /><Home />
     </div>
   );
 }

@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-unused-vars */
 import React, {useState} from 'react';
-import {FaBars, FaTimes,FaGithub,FaLinkedin, FaFacebook} from "react-icons/fa";
+import {FaBars, FaTimes} from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
-import {BsFillPersonLinesFill} from "react-icons";
 
 
 const NavBar = () => {
@@ -13,7 +12,7 @@ const [nav, setNav] = useState(false);
 const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#566e3d] text-slate-200'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#566e3d] text-slate-300'>
         <div>
             <img src="" alt='' ></img>
         </div>
