@@ -7,6 +7,31 @@ export default function NavBar() {
         <div>
             <img src="" alt='Logo' ></img> hello
         </div>
+        <div>
+            <ul className='flex '>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Experience</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        {/* burger for mobile */}
+        <div className='hidden'><FaBars/></div>
+
+        {/* mobile menu */}
+        <div className='hidden'>            
+            <ul>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Experience</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        {/* socials */}
+        <div></div>
+
     </div>
   )
 }; 
