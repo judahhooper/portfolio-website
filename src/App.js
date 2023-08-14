@@ -1,6 +1,7 @@
 import NavBar from "./components/navbar";
 import React from "react";
 import Home from "./components/home";
+import About from "./components/about";
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="font-nanummyeongjo">
       
        <NavBar />
-       <Home />
+      <Home/>
+      <About/>
     </div>
   );
 }

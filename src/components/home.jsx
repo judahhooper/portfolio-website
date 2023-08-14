@@ -6,12 +6,12 @@ import TypeWriterEffect from "react-typewriter-effect";
 
 const Home = () => {
   return (
-    <div name="home" className='w-full h-screen bg-[#C7C7A6] overflow-hidden'>
+    <div name="home" className='relative w-full h-screen bg-[#C7C7A6] overflow-hidden z-0'>
 
     {/* container */}
-    <div className='max-w-[1000px] mx-auto px-8 flex-col justify-center h-full translate-y-[30%] top-[50]'>
+    <div className='max-w-[1000px] mx-auto px-8 flex-col justify-center h-full translate-y-[30%] top-[50] md:translate-x-[-25%] z-10'>
         <p className='text-[#BF5700] pt-4 font-bold'>My name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold] py-4'><TypeWriterEffect startDelay={100} text="Judah Hooper." typeSpeed={100} stop/></h1>
+        <h1 className='text-4xl sm:text-7xl font-bold] py-4'><TypeWriterEffect startDelay={100} text="Judah Hooper." typeSpeed={75} stop/></h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-slate-800 py-4'>I'm looking for work as a junior front-end developer.</h2>
         <p className='text-slate-800 py-4 max-w-[700px]'>I'm a self taught dev, focussed on developing engaging and interesting web applications. Thanks for being here, you're welcome to look around.</p>
         <div>
