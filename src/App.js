@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="font-nanummyeongjo">
       
-       <NavBar /><Home />
+       <NavBar />
+       <Home />
     </div>
   );
 }
