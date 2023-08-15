@@ -3,6 +3,8 @@ import React from "react";
 import Home from "./components/home";
 import About from "./components/about";
 import Stack from "./components/stack";
+import Learning from "./components/learning";
+import Work from "./components/work";
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Home/>
       <About/>
       <Stack/>
+      <Learning/>
+      <Work/>
     </div>
   );
 }
