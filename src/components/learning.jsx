@@ -5,7 +5,7 @@ import NEXT from "../resources/next.png";
 
 const Learning = () => {
   return (
-    <div name="stack" className='bg-slate-700 text-slate-200 w-full h-screen'>
+    <div name="learning" className='bg-slate-700 text-slate-200 w-full h-screen'>
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <div ><p className='text-4xl py-4 font-bold border-b-4 border-[]'>This is what I'm learning.</p>
       </div>
