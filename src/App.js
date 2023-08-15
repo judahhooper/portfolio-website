@@ -5,6 +5,7 @@ import About from "./components/about";
 import Stack from "./components/stack";
 import Learning from "./components/learning";
 import Work from "./components/work";
+import Contact from "./components/contact";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Stack/>
       <Learning/>
       <Work/>
+      <Contact/>
     </div>
   );
 }
